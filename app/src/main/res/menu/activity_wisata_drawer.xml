@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_semua_lokasi"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Semua Lokasi" />
+
+    </group>
+
+    <item android:title="Kategori Wisata">
+        <menu>
+            <item
+                android:id="@+id/nav_wisata_free"
+                android:icon="@drawable/ic_free_breakfast_black_24dp"
+                android:title="Gratis" />
+            <item
+                android:id="@+id/nav_wisata_air"
+                android:icon="@drawable/ic_swim_black_24dp"
+                android:title="Wisata Air" />
+            <item
+                android:id="@+id/nav_wisata_alam"
+                android:icon="@drawable/ic_alam_black_24dp"
+                android:title="Wisata Alam" />
+            <item
+                android:id="@+id/nav_wisata_belanja"
+                android:icon="@drawable/ic_belanja_black_24dp"
+                android:title="Wisata Belanja" />
+            <item
+                android:id="@+id/nav_wisata_edukasi"
+                android:icon="@drawable/ic_edukasi_black_24dp"
+                android:title="Wisata Edukasi" />
+            <item
+                android:id="@+id/nav_wisata_kuliner"
+                android:icon="@drawable/ic_local_dining_black_24dp"
+                android:title="Wisata Kuliner" />
+            <item
+                android:id="@+id/nav_wisata_sejarah"
+                android:icon="@drawable/ic_sejarah_black_24dp"
+                android:title="Wisata Sejarah" />
+        </menu>
+    </item>
+
+</menu>
